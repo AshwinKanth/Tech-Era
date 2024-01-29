@@ -1,0 +1,38 @@
+.app-container {
+  height: 100vh;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.courseList-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 40px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failureViewImage {
+  width: 40%;
+}
+
+.failureView-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
